@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from "react";
 import API from "../utils/API";
+import Search from "../components/Search";
+import Result from "../components/Result"
 
 function Books(){
   return (
-    <p>Hey</p>
+    <div>
+      
+    <Search />
+ 
+    </div>
   )
 }
 
